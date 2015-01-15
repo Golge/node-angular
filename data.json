@@ -1,0 +1,9 @@
+[{"id":2,"userId":1,"firstName":["Semra","text"],"lastName":["Gumus","text"]},
+{"id":3,"userId":1,"firstName":["Sibel","text"],"lastName":["Kavurucu","text"]},
+{"id":4,"userId":1,"firstName":["Ahmet","text"],"lastName":["Tasci","text"]},
+{"id":6,"userId":1,"firstName":["Oznur","text"],"lastName":["Keles","text"]},
+{"firstName":["","text"],"lastName":["","text"],"email":["","email"],"homePhone":["","tel"],"cellPhone":["","tel"],"birthday":["","date"],"website":["","url"],"address":["","text"],"userId":1,"id":7},
+{"firstName":["","text"],"lastName":["","text"],"email":["","email"],"homePhone":["","tel"],"cellPhone":["","tel"],"birthday":["","date"],"website":["","url"],"address":["","text"],"userId":1,"id":8},
+{"firstName":["John","text"],"lastName":["Doe","text"],"email":["john@doe.com","email"],"homePhone":["","tel"],"cellPhone":["","tel"],"birthday":["","date"],"website":["","url"],"address":["","text"],"userId":1,"id":10},
+{"id":5,"userId":1,"firstName":["Gokhan","text"],"lastName":["Gumus","text"],"hotmail":["ben_82_@hotmail.com","email"],"siyah":[null,"color"]},
+{"id":1,"userId":1,"firstName":["Fatih","text"],"lastName":["Gumus","text"],"evTelefonu":[2525123733,"number"],"gmail":["fatihgumush@gmail.com","email"],"kirmizi":["#ff0000","color"]}]

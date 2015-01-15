@@ -1,0 +1,26 @@
+<div>
+
+	<div class="row form-group" ng-form="newField" ng-if="display">
+		<div class="col-sm-2">
+			<input type="text" class="form-control" name="fieldName" required ng-model="field.name" placeholder="baslik"/>
+		</div>
+		<div class="col-sm-2">
+			<input type="{{field.type}}" class="form-control" name="fieldValue" ng-model="field.value" placeholder="value"/>
+		</div>
+		<div class="col-sm-4">
+			<button class="btn btn-primary" ng-click="add()">Ekle</button>
+			<button class="btn btn-primary" ng-click="remove()">Sil</button>
+		</div>
+	</div>
+
+	<div class="row form-group">
+		<div class="btn-group col-sm-offset-2 dropup">
+			<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				Yeni Satir Ekle <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li ng-repeat="(key, value) in types"><a ng-click="show(key)">{{value[0]}}</a></li>
+			</ul>
+		</div>
+	</div>
+</div>

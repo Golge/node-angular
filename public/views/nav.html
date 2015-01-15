@@ -1,0 +1,12 @@
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<ul class="nav navbar-nav">
+			<li ng-class='{ active: PAGE === "all"}'> <a href="/contacts"> Rehber </a></li>
+			<li ng-class='{ active: PAGE === "new"}'> <a href="/contact/new"> Kisi Ekle</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li ng-class='{ active: PAGE === "settings"}'> <a href="/settings"> Ayarlar </a></li>
+			<li><a href="/logout" target="_self">Cikis</a></li>
+		</ul>
+	</div>
+</nav>
